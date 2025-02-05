@@ -873,10 +873,30 @@ footer {
     margin-top: 40px;
     width: 97%;
 } 
-.presenting i {
-    width: 124px;
-    height: 124px;
-    background-color: var(--bgcolor);
+
+.presenting .img-div{
+    height: 135px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 25px;
+    border: 1px solid #7e8f83;
+    margin-right: 26px;
+    outline: 8px solid var(--main-color);
+    position: relative;
+}
+
+/* .presenting .img-div:hover{
+    background-color: #303034;
+} */
+
+/* .presenting img {
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
     border-radius: 50%;
     margin-right: 26px;
     display: flex;
@@ -884,25 +904,30 @@ footer {
     justify-content: center;
     font-size: 74px;
     border: 1px solid #7e8f83;
-    outline: 8px solid var(--bgcolor);
+    outline: 8px solid var(--main-color);
     position: relative;
-    z-index: 111;
-} 
-.presenting:hover i:before {
+    z-index: 9999;
+    color: white;
+    padding: 10px;
+    object-fit: contain;
+}  */
+.presenting:hover img:before {
     z-index: 11;
     color: #fff;
 }
-.presenting i:after {
+.presenting img:after {
     content: "";
-    width: 124px;
-    height: 124px;
+    width: 140px;
+    height: 140px;
     position: absolute; 
     border-radius: 50%;
-    border: 1px solid #444;
+    border: 1px solid #fff;
+    margin: 20px;
 }
-.presenting:hover i:after {
+/* .presenting:hover img:after {
     border: 70px solid #444;
-}
+    background-color: #303034;
+} */
 .presenting h3 {
     font-weight: bold;
     padding-bottom: 7px;
