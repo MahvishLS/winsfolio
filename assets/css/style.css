@@ -640,8 +640,8 @@ ul.shaps-img li:nth-child(2) {
     animation: 10s toptop infinite;
 }
 ul.shaps-img li:nth-child(3) {
-    bottom: 23%;
-    left: 4%;
+    bottom: 16%;
+    left: 36%;
     animation: 10s toptop infinite ;
 }
 ul.shaps-img li:nth-child(4) {
@@ -1959,11 +1959,11 @@ footer ul.shaps-img li:nth-child(3) {
 }
 .hero-section.for ul.shaps-img li:nth-child(4) {
     bottom: 49%;
-    left: 27%;
+    left: 12%;
 }
 .hero-section.for  ul.shaps-img li:nth-child(5) {
-    bottom: 49%;
-    right: 4%;
+    bottom: 3%;
+    right: 5%;
     animation: 10s leftleft infinite;
 }
 /* 25. hero-section.two */
