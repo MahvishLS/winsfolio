@@ -45,7 +45,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap');
 
 :root {
-    --bgcolor: #54fa80;
+    --bgcolor: #6637ed;
     --main-color : #6637ed ;
 }
 body,html {
@@ -952,6 +952,10 @@ footer {
     width: 78%;
     padding-top: 18px;
 }
+
+.chek img{
+    height: 22px  !important;
+}
 ul.chek li {
     padding-bottom: 12px;
     font-size: 18px;
@@ -972,6 +976,7 @@ ul.chek li img {
     position: absolute;
     left: 10px;
     top: 10px;
+    color: white;
     background-color: var(--bgcolor);
     width: 42px;
     height: 42px;
@@ -998,6 +1003,11 @@ ul.chek li img {
     margin-top: 24px;
     background-color: var(--main-color);
 } 
+
+.how-do-stap.two span{
+    background-color: #000;
+}
+
 .how-do-stap.two i,.how-do-stap.two h4 {
     color: #fff;
 }
